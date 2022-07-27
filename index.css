@@ -8,7 +8,8 @@ body {
     background-color: black;
     color: #fcf6f4;
     font-family: 'AlphaCentauri', sans-serif;
-    font-size: 100px;
+    font-size: 16px;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,12 +17,50 @@ body {
 }
 
 h1 {
-    margin-top: 300px;
+    font-size: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-h2 {
-    font-size: 25px !important;
-    margin-top: 50px;
+.intro {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.intro .item {
+    margin: 2px 0;
+}
+
+.intro .diff {
+    margin: 25px 0;
+}
+
+
+button {
+    height: 60px;
+    width: 300px;
+    font-size: 22px;
+    font-weight: bolder;
     background-color: #fcf6f4;
     color: black;
+    font-family: 'AlphaCentauri', sans-serif;
+    border-radius: 30px;
+    cursor: pointer;
+    
+}
+
+.footer {
+    font-size: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
