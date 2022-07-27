@@ -7,7 +7,7 @@
 body {
     background-color: black;
     color: #fcf6f4;
-    font-family: 'AlphaCentauri', sans-serif;
+    font-family: 'AlphaCentauri';
     font-size: 16px;
 
     display: flex;
@@ -50,7 +50,7 @@ button {
     font-weight: bolder;
     background-color: #fcf6f4;
     color: black;
-    font-family: 'AlphaCentauri', sans-serif;
+    font-family: 'AlphaCentauri';
     border-radius: 30px;
     cursor: pointer;
     
